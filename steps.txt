@@ -1,0 +1,25 @@
+1)  Create a git hub account.
+
+2)  Create a repository with any random name.
+
+3)  In your system(Cent OS): -
+	a) yum install git	(as a root user)
+	b) Create a Directory.
+	c)  git config --global user.name "YashBichewar"    (your username in git)
+	     git config --global user.email yash14yash@gmail.com    (the username 	     you used to sign in)
+
+4) git config –list (To check if the username and email id are added, if it doesn't work with one hyphen try adding two hyphens)
+
+5) In the same folder create a file and write something in it.
+
+6) After the file is created run → git add <filename>
+
+7)To give a message with the file write → git commit -m <"Your message">
+
+8) git remote -v (you will get two lines “fetch” and “push”)
+
+9) git push origin master (if you get an error try → git pull origin master → and t     then run → git push origin master  )
+
+10) The above command will push your file to the git hub
+
+11) To add a complete folder having multiple files to your git use → git add -A
